@@ -7,63 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27297CC324F19E9E00532597 /* kombuchaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27297CC224F19E9E00532597 /* kombuchaApp.swift */; };
+		27297CC324F19E9E00532597 /* KombuchaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27297CC224F19E9E00532597 /* KombuchaApp.swift */; };
 		27297CC524F19E9E00532597 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27297CC424F19E9E00532597 /* ContentView.swift */; };
 		27297CC724F19EA000532597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27297CC624F19EA000532597 /* Assets.xcassets */; };
 		27297CCA24F19EA000532597 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27297CC924F19EA000532597 /* Preview Assets.xcassets */; };
-		27297CD624F19EA100532597 /* kombuchaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27297CD524F19EA100532597 /* kombuchaTests.swift */; };
-		27297CE124F19EA100532597 /* kombuchaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27297CE024F19EA100532597 /* kombuchaUITests.swift */; };
+		2764DB3A24F5E17E00A8CA89 /* InstalledAppsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2764DB3924F5E17E00A8CA89 /* InstalledAppsModel.swift */; };
+		2764DB3C24F5EB2A00A8CA89 /* AllAppsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2764DB3B24F5EB2A00A8CA89 /* AllAppsModel.swift */; };
+		2769DC1324F483B600CD33E2 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2769DC1224F483B600CD33E2 /* SearchView.swift */; };
+		276AC6EE24F1B94300A6CDFB /* Formulae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276AC6ED24F1B94300A6CDFB /* Formulae.swift */; };
+		276AC6F024F1C54E00A6CDFB /* FormulaeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276AC6EF24F1C54E00A6CDFB /* FormulaeRow.swift */; };
+		276AC6F224F1DC0F00A6CDFB /* InfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276AC6F124F1DC0F00A6CDFB /* InfoModel.swift */; };
+		276AC6F424F1DF2400A6CDFB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276AC6F324F1DF2400A6CDFB /* DetailView.swift */; };
+		2789814224F1AC74002947A4 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2789814124F1AC74002947A4 /* Sidebar.swift */; };
+		27B771B024F31244001380E1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B771AF24F31244001380E1 /* Home.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		27297CD224F19EA100532597 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27297CB724F19E9E00532597 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27297CBE24F19E9E00532597;
-			remoteInfo = kombucha;
-		};
-		27297CDD24F19EA100532597 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27297CB724F19E9E00532597 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27297CBE24F19E9E00532597;
-			remoteInfo = kombucha;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		27297CBF24F19E9E00532597 /* kombucha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kombucha.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		27297CC224F19E9E00532597 /* kombuchaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kombuchaApp.swift; sourceTree = "<group>"; };
+		27297CC224F19E9E00532597 /* KombuchaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KombuchaApp.swift; sourceTree = "<group>"; };
 		27297CC424F19E9E00532597 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27297CC624F19EA000532597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27297CC924F19EA000532597 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27297CCB24F19EA000532597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27297CCC24F19EA000532597 /* kombucha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kombucha.entitlements; sourceTree = "<group>"; };
-		27297CD124F19EA100532597 /* kombuchaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kombuchaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		27297CD524F19EA100532597 /* kombuchaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kombuchaTests.swift; sourceTree = "<group>"; };
-		27297CD724F19EA100532597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27297CDC24F19EA100532597 /* kombuchaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kombuchaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		27297CE024F19EA100532597 /* kombuchaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kombuchaUITests.swift; sourceTree = "<group>"; };
-		27297CE224F19EA100532597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2764DB3924F5E17E00A8CA89 /* InstalledAppsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalledAppsModel.swift; sourceTree = "<group>"; };
+		2764DB3B24F5EB2A00A8CA89 /* AllAppsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAppsModel.swift; sourceTree = "<group>"; };
+		2769DC1224F483B600CD33E2 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		276AC6ED24F1B94300A6CDFB /* Formulae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formulae.swift; sourceTree = "<group>"; };
+		276AC6EF24F1C54E00A6CDFB /* FormulaeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaeRow.swift; sourceTree = "<group>"; };
+		276AC6F124F1DC0F00A6CDFB /* InfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModel.swift; sourceTree = "<group>"; };
+		276AC6F324F1DF2400A6CDFB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2789814124F1AC74002947A4 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		27B771AF24F31244001380E1 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		27297CBC24F19E9E00532597 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27297CCE24F19EA100532597 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27297CD924F19EA100532597 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,8 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				27297CC124F19E9E00532597 /* kombucha */,
-				27297CD424F19EA100532597 /* kombuchaTests */,
-				27297CDF24F19EA100532597 /* kombuchaUITests */,
 				27297CC024F19E9E00532597 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,8 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				27297CBF24F19E9E00532597 /* kombucha.app */,
-				27297CD124F19EA100532597 /* kombuchaTests.xctest */,
-				27297CDC24F19EA100532597 /* kombuchaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,8 +71,9 @@
 		27297CC124F19E9E00532597 /* kombucha */ = {
 			isa = PBXGroup;
 			children = (
-				27297CC224F19E9E00532597 /* kombuchaApp.swift */,
-				27297CC424F19E9E00532597 /* ContentView.swift */,
+				27297CEF24F19FA300532597 /* Models */,
+				27297CEE24F19F8600532597 /* Views */,
+				27297CC224F19E9E00532597 /* KombuchaApp.swift */,
 				27297CC624F19EA000532597 /* Assets.xcassets */,
 				27297CCB24F19EA000532597 /* Info.plist */,
 				27297CCC24F19EA000532597 /* kombucha.entitlements */,
@@ -114,22 +90,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		27297CD424F19EA100532597 /* kombuchaTests */ = {
+		27297CEE24F19F8600532597 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				27297CD524F19EA100532597 /* kombuchaTests.swift */,
-				27297CD724F19EA100532597 /* Info.plist */,
+				2789814124F1AC74002947A4 /* Sidebar.swift */,
+				276AC6EF24F1C54E00A6CDFB /* FormulaeRow.swift */,
+				276AC6F324F1DF2400A6CDFB /* DetailView.swift */,
+				27B771AF24F31244001380E1 /* Home.swift */,
+				2769DC1224F483B600CD33E2 /* SearchView.swift */,
+				27297CC424F19E9E00532597 /* ContentView.swift */,
 			);
-			path = kombuchaTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		27297CDF24F19EA100532597 /* kombuchaUITests */ = {
+		27297CEF24F19FA300532597 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				27297CE024F19EA100532597 /* kombuchaUITests.swift */,
-				27297CE224F19EA100532597 /* Info.plist */,
+				276AC6ED24F1B94300A6CDFB /* Formulae.swift */,
+				276AC6F124F1DC0F00A6CDFB /* InfoModel.swift */,
+				2764DB3924F5E17E00A8CA89 /* InstalledAppsModel.swift */,
+				2764DB3B24F5EB2A00A8CA89 /* AllAppsModel.swift */,
 			);
-			path = kombuchaUITests;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,42 +134,6 @@
 			productReference = 27297CBF24F19E9E00532597 /* kombucha.app */;
 			productType = "com.apple.product-type.application";
 		};
-		27297CD024F19EA100532597 /* kombuchaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27297CE824F19EA100532597 /* Build configuration list for PBXNativeTarget "kombuchaTests" */;
-			buildPhases = (
-				27297CCD24F19EA100532597 /* Sources */,
-				27297CCE24F19EA100532597 /* Frameworks */,
-				27297CCF24F19EA100532597 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				27297CD324F19EA100532597 /* PBXTargetDependency */,
-			);
-			name = kombuchaTests;
-			productName = kombuchaTests;
-			productReference = 27297CD124F19EA100532597 /* kombuchaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		27297CDB24F19EA100532597 /* kombuchaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 27297CEB24F19EA100532597 /* Build configuration list for PBXNativeTarget "kombuchaUITests" */;
-			buildPhases = (
-				27297CD824F19EA100532597 /* Sources */,
-				27297CD924F19EA100532597 /* Frameworks */,
-				27297CDA24F19EA100532597 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				27297CDE24F19EA100532597 /* PBXTargetDependency */,
-			);
-			name = kombuchaUITests;
-			productName = kombuchaUITests;
-			productReference = 27297CDC24F19EA100532597 /* kombuchaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,14 +145,6 @@
 				TargetAttributes = {
 					27297CBE24F19E9E00532597 = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					27297CD024F19EA100532597 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 27297CBE24F19E9E00532597;
-					};
-					27297CDB24F19EA100532597 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 27297CBE24F19E9E00532597;
 					};
 				};
 			};
@@ -224,8 +162,6 @@
 			projectRoot = "";
 			targets = (
 				27297CBE24F19E9E00532597 /* kombucha */,
-				27297CD024F19EA100532597 /* kombuchaTests */,
-				27297CDB24F19EA100532597 /* kombuchaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,20 +176,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27297CCF24F19EA100532597 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27297CDA24F19EA100532597 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,41 +183,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276AC6EE24F1B94300A6CDFB /* Formulae.swift in Sources */,
+				2769DC1324F483B600CD33E2 /* SearchView.swift in Sources */,
+				276AC6F024F1C54E00A6CDFB /* FormulaeRow.swift in Sources */,
 				27297CC524F19E9E00532597 /* ContentView.swift in Sources */,
-				27297CC324F19E9E00532597 /* kombuchaApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27297CCD24F19EA100532597 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27297CD624F19EA100532597 /* kombuchaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27297CD824F19EA100532597 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27297CE124F19EA100532597 /* kombuchaUITests.swift in Sources */,
+				2764DB3A24F5E17E00A8CA89 /* InstalledAppsModel.swift in Sources */,
+				2789814224F1AC74002947A4 /* Sidebar.swift in Sources */,
+				27297CC324F19E9E00532597 /* KombuchaApp.swift in Sources */,
+				276AC6F224F1DC0F00A6CDFB /* InfoModel.swift in Sources */,
+				2764DB3C24F5EB2A00A8CA89 /* AllAppsModel.swift in Sources */,
+				27B771B024F31244001380E1 /* Home.swift in Sources */,
+				276AC6F424F1DF2400A6CDFB /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		27297CD324F19EA100532597 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27297CBE24F19E9E00532597 /* kombucha */;
-			targetProxy = 27297CD224F19EA100532597 /* PBXContainerItemProxy */;
-		};
-		27297CDE24F19EA100532597 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27297CBE24F19E9E00532597 /* kombucha */;
-			targetProxy = 27297CDD24F19EA100532597 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		27297CE324F19EA100532597 /* Debug */ = {
@@ -461,90 +363,6 @@
 			};
 			name = Release;
 		};
-		27297CE924F19EA100532597 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KAP678Y5U8;
-				INFOPLIST_FILE = kombuchaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = studio.mash.kombuchaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kombucha.app/Contents/MacOS/kombucha";
-			};
-			name = Debug;
-		};
-		27297CEA24F19EA100532597 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KAP678Y5U8;
-				INFOPLIST_FILE = kombuchaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = studio.mash.kombuchaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kombucha.app/Contents/MacOS/kombucha";
-			};
-			name = Release;
-		};
-		27297CEC24F19EA100532597 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KAP678Y5U8;
-				INFOPLIST_FILE = kombuchaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = studio.mash.kombuchaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = kombucha;
-			};
-			name = Debug;
-		};
-		27297CED24F19EA100532597 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KAP678Y5U8;
-				INFOPLIST_FILE = kombuchaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = studio.mash.kombuchaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = kombucha;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -562,24 +380,6 @@
 			buildConfigurations = (
 				27297CE624F19EA100532597 /* Debug */,
 				27297CE724F19EA100532597 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		27297CE824F19EA100532597 /* Build configuration list for PBXNativeTarget "kombuchaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27297CE924F19EA100532597 /* Debug */,
-				27297CEA24F19EA100532597 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		27297CEB24F19EA100532597 /* Build configuration list for PBXNativeTarget "kombuchaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				27297CEC24F19EA100532597 /* Debug */,
-				27297CED24F19EA100532597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
