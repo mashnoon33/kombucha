@@ -11,7 +11,11 @@ import SwiftUI
 struct KombuchaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                Sidebar()
+                Home()
+                ContentView(app: Formulae(name: "james", version: "String"))
+            }
         }
     }
 }

@@ -11,6 +11,10 @@
 		27F5DCFE24F328E80044C151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5DCFD24F328E80044C151 /* ContentView.swift */; };
 		27F5DD0024F328E90044C151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F5DCFF24F328E90044C151 /* Assets.xcassets */; };
 		27F5DD0324F328E90044C151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F5DD0224F328E90044C151 /* Preview Assets.xcassets */; };
+		27F5DD0D24F329410044C151 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5DD0C24F329410044C151 /* Sidebar.swift */; };
+		27F5DD0F24F329F30044C151 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5DD0E24F329F30044C151 /* Home.swift */; };
+		27F5DD1224F32A3B0044C151 /* Formulae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5DD1124F32A3B0044C151 /* Formulae.swift */; };
+		27F5DD1424F32A660044C151 /* SidebarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5DD1324F32A660044C151 /* SidebarRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		27F5DD0224F328E90044C151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27F5DD0424F328E90044C151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27F5DD0524F328E90044C151 /* Kombucha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kombucha.entitlements; sourceTree = "<group>"; };
+		27F5DD0C24F329410044C151 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		27F5DD0E24F329F30044C151 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		27F5DD1124F32A3B0044C151 /* Formulae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formulae.swift; sourceTree = "<group>"; };
+		27F5DD1324F32A660044C151 /* SidebarRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,8 @@
 		27F5DCFA24F328E80044C151 /* Kombucha */ = {
 			isa = PBXGroup;
 			children = (
+				27F5DD1024F32A170044C151 /* Model */,
+				27F5DD0B24F329320044C151 /* Views */,
 				27F5DCFB24F328E80044C151 /* KombuchaApp.swift */,
 				27F5DCFD24F328E80044C151 /* ContentView.swift */,
 				27F5DCFF24F328E90044C151 /* Assets.xcassets */,
@@ -69,6 +79,24 @@
 				27F5DD0224F328E90044C151 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27F5DD0B24F329320044C151 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27F5DD0C24F329410044C151 /* Sidebar.swift */,
+				27F5DD0E24F329F30044C151 /* Home.swift */,
+				27F5DD1324F32A660044C151 /* SidebarRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27F5DD1024F32A170044C151 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27F5DD1124F32A3B0044C151 /* Formulae.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				27F5DCFE24F328E80044C151 /* ContentView.swift in Sources */,
+				27F5DD1424F32A660044C151 /* SidebarRow.swift in Sources */,
+				27F5DD0D24F329410044C151 /* Sidebar.swift in Sources */,
+				27F5DD1224F32A3B0044C151 /* Formulae.swift in Sources */,
+				27F5DD0F24F329F30044C151 /* Home.swift in Sources */,
 				27F5DCFC24F328E80044C151 /* KombuchaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
